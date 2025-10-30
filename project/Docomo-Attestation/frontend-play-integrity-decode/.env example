@@ -1,0 +1,7 @@
+# devnet 推奨
+RPC_URL=https://api.devnet.solana.com
+
+# 発行者(issuer)の秘密鍵（Base58）
+# 例: solana-keygen new で作った JSON の "secretKey" を base58 に変換
+ISSUER_SECRET=
+

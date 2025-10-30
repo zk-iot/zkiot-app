@@ -1,0 +1,21 @@
+{
+  "sasPayload": {
+    "schema": "android.play.integrity.v1",
+    "subject": "USER_WALLET_PUBKEY",
+    "data": {
+      "pkg": "com.example.myapplication",
+      "verdicts": {
+        "app": "PLAY_RECOGNIZED",
+        "device": [
+          "MEETS_DEVICE_INTEGRITY"
+        ]
+      },
+      "ts": 1739779200123,
+      "nonce_hash": "0x3f2a8c0b9d7e4e1a5c0f2e9d1b7a3c6d8e0f11223344556677889900aabbccdd",
+      "jws_hash": "0x9e5b7a6c1d2e3f40516273849abcdeff00112233445566778899aabbccddeeff"
+    },
+    "meta": {
+      "taskId": "A-123"
+    }
+  }
+}

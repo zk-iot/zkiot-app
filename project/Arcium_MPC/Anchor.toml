@@ -1,0 +1,23 @@
+[toolchain]
+package_manager = "yarn"
+anchor_version = "0.31.1"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+zkiot_mpc = "2CHAyGFt1mAzd7E7C4SZcZM83P6dBJXpdZg63LVKnfPV"
+
+[programs.devnet]
+zkiot_mpc = "2CHAyGFt1mAzd7E7C4SZcZM83P6dBJXpdZg63LVKnfPV"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "ts-node --transpile-only tests/zkiot_mpc.ts"

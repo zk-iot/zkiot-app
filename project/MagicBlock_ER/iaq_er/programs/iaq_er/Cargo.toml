@@ -1,0 +1,21 @@
+[package]
+name = "iaq_er"
+version = "0.1.0"
+edition = "2021"
+description = "Created with Anchor"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "iaq_er"
+
+[features]
+default = ["er"]          # ← 最初からERを有効にするならこのまま。まずOFFで通したいなら [] に変えてOK
+er = []                   # ER SDKを使うブロックを切り替えるためのfeature
+
+[dependencies]
+anchor-lang = "0.31.1"
+
+# ER SDK（Agave 2.x系想定）
+ephemeral-rollups-sdk = { version = "0.2.9", features = ["anchor"], optional = true }
+
+

@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root { color-scheme: dark; }
+html, body { background-color: #000; }
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: dark; }
+* { outline-color: #3B82F6; }            /* 青系フォーカス */
+::-webkit-scrollbar { height: 8px; width: 8px; }
+::-webkit-scrollbar-thumb { background: #1f2937; border-radius: 8px; }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
