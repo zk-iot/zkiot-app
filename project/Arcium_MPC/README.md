@@ -35,22 +35,6 @@ Tiny, gas-friendly, and production-viable.
 
 ---
 
-## Track fit (Hackathon scope)
-
-- **Hidden-Information Apps:** Private compliance checks and attestations for IoT data.
-- **MPC-Generated Decisions:** Policy evaluation (thresholds, squashing rules) without leaking inputs.
-- **Composable Primitive:** The same pattern applies to **private lending scorecards**, **auction filters**, or **KYC attestations** without revealing PII.
-
----
-
-## What’s novel
-
-- **“5-value MVP” pattern:** A reusable blueprint for **private checks** under Solana tx limits (~1232 bytes payload).
-- **Argument discipline:** We enforce **Arcium’s canonical order** to avoid `InvalidArguments(6301)` class errors:
-  - `ArcisPubkey → PlaintextU128(nonce) → EncryptedU128 × N`
-- **Upgrade path:** If the same user encrypts multiple fields, we can **pack into one struct** (`Enc<Shared, Struct>`) to cut args and bytes further.
-
----
 
 ## Architecture (bite-size)
 
