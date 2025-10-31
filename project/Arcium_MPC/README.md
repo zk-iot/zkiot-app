@@ -6,7 +6,7 @@ Tiny, gas-friendly, and production-viable.
 
 ---
 
-## Why this matters (Judge-focused)
+## Why this matters 
 
 - **Everything is public on Solana — but it doesn’t have to be.** This project shows a **practical, minimal** way to integrate Arcium’s encrypted compute into a real use case: **SLA verification** for IoT fleets.
 - **Credible neutrality:** IoT vendors prove reliability **without revealing** customer/device telemetry.
@@ -133,23 +133,6 @@ What you’ll see:
 
 ---
 
-## Roadmap (post-hack)
-
-- **Attestation NFTs / badges** signed by the program for **verified SLA windows**.
-- **Streaming payouts** tied to private pass/fail decisions.
-- **Confidential leaderboards** / reliability scores with reveal thresholds.
-- **Composability** with private lending or insurance underwriting.
-
----
-
-## Judge checklist
-
-- **Clear problem & fit:** Private SLA checks for IoT → strong need for confidentiality.
-- **Arcium integration:** Real MPC pipeline (encrypt → compute → re-encrypt → reveal minimal output).
-- **Solana practicality:** Tx size disciplined; accounts minimized; yarn + Anchor 0.31.1; localnet/devnet ready.
-- **Extensibility:** Easily repurposed for prediction markets, hidden-state games, or private credit checks.
-
----
 
 ## Repo map
 
@@ -174,5 +157,4 @@ MIT (or your preference).
 
 ---
 
-If you want, I can also include a **devnet** quickstart block using your Helius RPC and keep the **yarn-only** flow exactly as you’ve standardized.
 
