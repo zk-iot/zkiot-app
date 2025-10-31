@@ -1,18 +1,15 @@
-# zkIoT – Mobile-Attested, Privacy-Preserving IoT Proofs on Solana
+# zkIoT – Protect Privacy while Proving Compliance
 
 > **Show proofs, not secrets.**
-> Device attestation (mobile & hardware) × edge ZK/MPC × minimal on-chain anchors (Solana)
+
 
 ---
 
 ## Overview
 
-zkIoT is an **IoT platform that allows verification of facts (pass/fail)** without exposing raw data.
-It ensures **authenticity of real devices** using Google Play Integrity / ATECC608A, executes **ZK/MPC** at the edge, and records **only minimal proofs (Merkle Root / Memo / cNFT receipt)** on Solana.
+Every time you need to build trust, you’re asked for detailed data, endless paperwork and emails, and even on-site checks. With overseas partners, explanations drag on; internal approvals and payments get delayed. You want to protect secrets, yet disclosure costs and audit workload keep growing.
 
-* **Device → Proof**: Generate pass/fail results without revealing raw logs
-* **Verify → Pay**: Automatic settlement upon success (via Actions/Blinks integration)
-* **Composable**: Integrates with SAS / Magic Block ER / Arcium / Metaplex
+zk-IoT lets you show only the fact of compliance—without exposing data—via a shareable link. Partners can verify in one click, approvals get shorter, and payments run Pass→Pay under pre-agreed terms. Audits respond instantly with verifiable history. — Keep secrets inside. Distribute only trust.
 
 ---
 
@@ -20,12 +17,11 @@ It ensures **authenticity of real devices** using Google Play Integrity / ATECC6
 
 | Purpose                                 | Link                   |
 | --------------------------------------- | ---------------------- |
-| **Main Hackathon App**                  | `apps/hackathon`       |
-| **Core Program**                        | `programs/zkiot_core`  |
-| **Mobile-Attested zk-IoT (SAS)**        | `apps/mobile-attested` |
-| **128-Chunk zk Accel (Magic Block ER)** | `apps/zk-128`          |
-| **Private SLA via MPC (Arcium)**        | `apps/mpc-sla`         |
-| **Receipts as cNFT (Metaplex)**         | `apps/receipts`        |
+| **Main Hackathon App**                  | `frontend`       |
+| **Mobile-Attested zk-IoT (SAS)**        | `project/Docomo-Attestation` |
+| **128-Chunk zk Accel (Magic Block ER)** | `project/Docomo-Attestation8`          |
+| **Private SLA via MPC (Arcium)**        | `project/Docomo-Attestation`         |
+| **Demo Web**                            | `apps/receipts`        |
 
 ---
 
@@ -49,11 +45,6 @@ It ensures **authenticity of real devices** using Google Play Integrity / ATECC6
 * **Goal**: Enable L1 verification of “who measured it” (device/IoT authenticity)
 * **Deliverables**: Attested payload → SAS verification → `commit_checkpoint` integration
 
-### Privy
-
-* **Goal**: Simplify user/key management and provide a **shareable verification link UX**
-* **Deliverables**: Privy-integrated verification view (displays pass/fail only)
-
 ### Magic Block (Ephemeral Rollups / Router)
 
 * **Goal**: Route 128-chunk submissions through **ER** to optimize throughput
@@ -64,10 +55,17 @@ It ensures **authenticity of real devices** using Google Play Integrity / ATECC6
 * **Goal**: Use only **five encrypted metrics** to determine **SLA: Pass≥X%** privately
 * **Deliverables**: `encrypted-ixs` (circuits), `zkiot_mpc` (queue/callback)
 
+### Privy (Wallets)
+
+* **Goal**: Simplify user/key management and provide a **shareable verification link UX**
+* **Deliverables**: Privy-integrated verification view (displays pass/fail only)
+
 ### Metaplex (Compressed NFTs)
 
 * **Goal**: Issue and distribute pass/fail receipts cost-effectively via **state compression**
 * **Deliverables**: Implement `receipt.mint_compressed()` and verification UI
 
+### Metaplex (RPC)
 
-
+* **Goal**: Issue and distribute pass/fail receipts cost-effectively via **state compression**
+* **Deliverables**: Implement `receipt.mint_compressed()` and verification UI
