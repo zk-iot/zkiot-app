@@ -2,7 +2,8 @@
 
 > **Show proofs, not secrets.**
 
-<img width="1360" height="762" alt="Image" src="https://github.com/user-attachments/assets/079eb2d7-7491-42b7-aa9d-a9b7bfa94a09" />
+<img src="https://github.com/user-attachments/assets/079eb2d7-7491-42b7-aa9d-a9b7bfa94a09" width="800" />
+
 ---
 
 ## Overview
