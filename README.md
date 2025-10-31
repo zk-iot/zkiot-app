@@ -18,9 +18,9 @@ zk-IoT lets you show only the fact of compliance—without exposing data—via a
 | Purpose                                 | Link                   |
 | --------------------------------------- | ---------------------- |
 | **Main Hackathon App**                  | [frontend](https://github.com/zk-iot/zkiot-app/tree/main/frontend)      |
-| **Mobile-Attested zk-IoT (SAS)**        | [project/Docomo-Attestation]([https://app.zk-iot.xyz/](https://github.com/zk-iot/zkiot-app/tree/main/project/Docomo-Attestation)) |
-| **128-Chunk zk Accel (Magic Block ER)** | [project/MagicBlock_ER]([https://app.zk-iot.xyz/](https://github.com/zk-iot/zkiot-app/tree/main/project/MagicBlock_ER))         |
-| **Private SLA via MPC (Arcium)**        | [project/Arcium_MPC]([https://app.zk-iot.xyz](https://github.com/zk-iot/zkiot-app/tree/main/project/Arcium_MPC)/)        |
+| **Mobile-Attested zk-IoT (SAS)**        | [project/Docomo-Attestation](https://github.com/zk-iot/zkiot-app/tree/main/project/Docomo-Attestation) |
+| **128-Chunk zk Accel (Magic Block ER)** | [project/MagicBlock_ER](https://app.zk-iot.xyz/](https://github.com/zk-iot/zkiot-app/tree/main/project/MagicBlock_ER))         |
+| **Private SLA via MPC (Arcium)**        | [project/Arcium_MPC](https://app.zk-iot.xyz](https://github.com/zk-iot/zkiot-app/tree/main/project/Arcium_MPC)/)        |
 | **Demo App** 　　　　　　　　　　　　　　　| [Demo App](https://app.zk-iot.xyz/) |
 
 ---
