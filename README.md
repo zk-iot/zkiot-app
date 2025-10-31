@@ -35,6 +35,7 @@ zk-IoT lets you show only the fact of compliance—without exposing data—via a
 | **Data Integrity** | IPFS (Pinata) + keccak Merkle Tree           | Pins chunked data; produces CID and Merkle root for on-chain reference.                |
 | **On-Chain**       | Anchor, iaq_er::commit_checkpoint, Memo(CID) | Commits Merkle root; stores minimal references; triggers actions (Verify → Pay).       |
 | **Receipts / UX**  | Metaplex compressed NFTs, Actions/Blinks     | Issues low-cost pass/fail receipts; enables one-click verification & payments.         |
+| **Token**          | SPL Tokens, Actions/Blinks                   | Automates pass→pay and programmable payouts for verified proofs.                            |
 
 ---
 
