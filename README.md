@@ -74,6 +74,6 @@ zk-IoT lets you show only the fact of compliance—without exposing data—via a
 * **Link▶**:https://github.com/zk-iot/zkiot-app/blob/main/frontend/src/app/api/mint/route.ts
 
 ### Triton One (RPC)
-* **Goal**: Issue and distribute pass/fail receipts cost-effectively via **state compression**
-* **Deliverables**: Implement `receipt.mint_compressed()` and verification UI
+* **Goal**: Provide high-performance RPC endpoints to read minimal on-chain anchors  from Solana for zkIoT verifiers.
+* **Deliverables**: RPC method examples for querying commit_checkpoint events, sample indexer script.
 
