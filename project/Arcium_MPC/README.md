@@ -100,23 +100,6 @@ What you’ll see:
 
 ---
 
-## Keeping it tiny (Solana constraints)
-
-- Each encrypted datum is **32 bytes**.
-- We send **just 5** + pubkey + nonce; the whole tx stays within the **~1232-byte** payload.
-- Avoid giant stack vars in circuits or program code (common source of “stack offset exceeded 4096” errors).
-- Pack multiple fields into a **single struct** when possible to shave arguments.
-
----
-
-## Security/Privacy posture
-
-- **No raw telemetry** ever on-chain or visible to operators.
-- Only the **boolean** (or payout) is revealed; everything else remains encrypted.
-- Replace SLA policy inside the circuit to match your domain rules without changing the on-chain API.
-
----
-
 
 ## Repo map
 
