@@ -44,28 +44,37 @@ zk-IoT lets you show only the fact of compliance—without exposing data—via a
 
 * **Goal**: Enable L1 verification of “who measured it” (device/IoT authenticity)
 * **Deliverables**: Attested payload → SAS verification → `commit_checkpoint` integration
+* Link▶　https://github.com/zk-iot/zkiot-app/tree/main/project/Docomo-Attestation/frontend-play-integrity-decode/src/sas
+* Transaction▶　https://explorer.solana.com/tx/XS9Tgp3kzKrHZGZkaLQCkPcVk8s5eYWEBU99PL2fDyfze4y1zT4jHfCzSrz4rem4vTQQVJ2282gU3HZKJoS1V3G?cluster=devnet
+
 
 ### Magic Block (Ephemeral Rollups / Router)
 
 * **Goal**: Route 128-chunk submissions through **ER** to optimize throughput
 * **Deliverables**: Replace `/api/commit` destination with **Magic Router SDK/API**
+* **Link**:
+* **Transaction**:
 
 ### Arcium (Secure Computation / MPC)
 
 * **Goal**: Use only **five encrypted metrics** to determine **SLA: Pass≥X%** privately
 * **Deliverables**: `encrypted-ixs` (circuits), `zkiot_mpc` (queue/callback)
+* **Link**:
 
 ### Privy (Wallets)
 
 * **Goal**: Simplify user/key management and provide a **shareable verification link UX**
 * **Deliverables**: Privy-integrated verification view (displays pass/fail only)
+* **Link**:
 
 ### Metaplex (Compressed NFTs)
 
 * **Goal**: Issue and distribute pass/fail receipts cost-effectively via **state compression**
 * **Deliverables**: Implement `receipt.mint_compressed()` and verification UI
+* **Link**:
 
-### Metaplex (RPC)
-
+### Triton One (RPC)
+* **Goal**: Issue and distribute pass/fail receipts cost-effectively via **state compression**
+* **Deliverables**: Implement `receipt.mint_compressed()` and verification UI
 * **Goal**: Issue and distribute pass/fail receipts cost-effectively via **state compression**
 * **Deliverables**: Implement `receipt.mint_compressed()` and verification UI
