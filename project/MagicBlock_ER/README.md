@@ -124,7 +124,7 @@ curl -X POST http://localhost:3000/api/finalize-bulk \
 
 ---
 
-## 🔐 Verifiability (for judges)
+## 🔐 Verifiability 
 
 * **Tx Memo stores the CID**, so anyone can fetch the IPFS JSON and cross‑check the on‑chain reference.
 * **`rootHex`** can be recomputed independently and compared with the on‑chain commitment.
