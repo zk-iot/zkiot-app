@@ -1,4 +1,4 @@
-# zkIoT SLA — Minimal Encrypted SLA Checks on Solana (Arcium + Anchor)
+# zkIoT SLA — Encrypted SLA Checks on Solana (Arcium + Anchor)
 
 **TL;DR:** We turn raw IoT data into **5 encrypted window summaries** and verify **“Pass ≥ X%?”** via **Arcium MPC**.  
 On-chain sees only ciphertext + a single boolean result. **No raw data ever leaves the client.**  
