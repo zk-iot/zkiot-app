@@ -25,9 +25,7 @@ zkIoT は、**生データを開示せず**に「基準を満たした事実（p
 | **Private SLA via MPC (Arcium)** | `apps/mpc-sla` | Encrypt 5 metrics → Arcium MPC checks Pass≥X% → on‑chain boolean. |
 | **Receipts as cNFT (Metaplex)** | `apps/receipts` | Mint compressed pass/fail receipts; share link / QR for buyers. |
 
-### Demo
-- `/demo` — JSON upload → 128 split → results (CID / Root / Tx)
-- `/verify` — Verify SAS / cNFT receipt link
+
 
 ---
 
@@ -68,5 +66,5 @@ zkIoT は、**生データを開示せず**に「基準を満たした事実（p
 
 ---
 
-> この README は提出用の最小構成です。各リポジトリ/デモのリンク・環境変数・起動手順は `README.<project>.md` に分割して追記してください。
+
 
