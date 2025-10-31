@@ -64,7 +64,7 @@ zk-IoT lets you show only the fact of compliance—without exposing data—via a
 ### Privy (Wallets)
 
 * **Goal**: Simplify user/key management and provide a **shareable verification link UX**
-* **Deliverables**: Privy-integrated verification view (displays pass/fail only)
+* **Deliverables**: ntegrated Google Auth and Email authentication via Privy for smooth user onboarding and verification.
 * **Link▶**:https://github.com/zk-iot/zkiot-app/blob/main/frontend/src/lib/privy.tsx
 
 ### Metaplex (Compressed NFTs)
