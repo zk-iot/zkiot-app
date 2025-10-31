@@ -2,7 +2,7 @@
 
 > **Encrypted sensor data in, share a simple proof out — no raw data revealed.**
 
-<img src="https://github.com/user-attachments/assets/079eb2d7-7491-42b7-aa9d-a9b7bfa94a09" width="800" />
+<img src="https://github.com/user-attachments/assets/cf77cb35-6af1-41ad-bc17-0e9b623dd7e7"　width="800" />
 
 ---
 
