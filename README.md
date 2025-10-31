@@ -19,9 +19,9 @@ zk-IoT lets you show only the fact of compliance—without exposing data—via a
 | --------------------------------------- | ---------------------- |
 | **Main Hackathon App**                  | `frontend`       |
 | **Mobile-Attested zk-IoT (SAS)**        | `project/Docomo-Attestation` |
-| **128-Chunk zk Accel (Magic Block ER)** | `project/Docomo-Attestation8`          |
-| **Private SLA via MPC (Arcium)**        | `project/Docomo-Attestation`         |
-| **Demo Web**                            | `apps/receipts`        |
+| **128-Chunk zk Accel (Magic Block ER)** | `project/MagicBlock_ER`          |
+| **Private SLA via MPC (Arcium)**        | `project/Arcium_MPC`         |
+| **Demo Web**                            | `[apps/receipts](https://app.zk-iot.xyz/)`        |
 
 ---
 
